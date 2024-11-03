@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="E:\Project\HTML, CSS & BOOTSTRAP\Bootstrap CDN File\bs.css" rel="stylesheet">
+    <title>Checkout Form</title>
+    <style>
+        body {
+            background-color: lightgrey;
+        }
+
+        .color-g {
+            color: #cccbcb;
+        }
+
+        input {
+            border: solid 1px #aaa;
+            border-radius: 5px;
+        }
+
+        select {
+            border: solid 1px #aaa;
+            border-radius: 5px;
+        }
+
+        .table-1 {
+            border: solid 1px #aaa;
+        }
+
+        .green {
+            color: rgb(110, 204, 48) !important;
+            font-weight: 500;
+        }
+
+        .font-w {
+            font-weight: 500;
+        }
+         .button-o{
+            background-color: #cecccc;
+         }
+        .button {
+            border-radius: 0 5px 0 5px;
+            border: solid 1px #aaa;
+
+        }
+
+        .button:hover {
+            background-color: #918f8f;
+            color: white;
+            border-radius: 5px 0 5px 0;
+            border: solid 1px #cfcfcf;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bg-light p-4" style="min-height: 300px;">
+            <div class="bg-primary text-center  ms-auto me-auto mb-3 rounded-2"
+                style="height: 50px; width: 50px; font-size: 32px;">B</div>
+            <h2 class="text-center">Checkout form</h2>
+            <p class="ms-5 me-5 text-center" style="font-size: 20px;">Below is an example form built entirely with
+                Bootstrap's form controls.Each required form group has a
+                validation state that can be triggered by attempting to submit the form without completing it.</p>
+            <div class="row">
+                <div class="col-8">
+                    <div class="" style="min-height: 400px;">
+                        <form>
+                            <h4>Billing Adrress</h4>
+                            <div class="row mt-3 mb-3">
+                                <div class="col-6">
+                                    <div class="row ">
+                                        <div class="col-12"><label for="f-name">First Name</label></div>
+                                        <div class="col-12"><input id="f-name" type="text" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-12"><label for="l-name">Last Name</label></div>
+                                        <div class="col-12"><input id="l-name" type="text" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-0 mt-3 mb-3">
+                                <div class="col-12">
+                                    <label for="username">Username</label>
+                                </div>
+                                <div class="col-12">
+                                    <input id="username" type="text" placeholder="@ Username">
+                                </div>
+                            </div>
+                            <div class="row mt-3 mb-3">
+                                <div class="col-2">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="col-2 color-g">(Optional)</div>
+                                <div class="col-12">
+                                    <input id="email" type="email" placeholder="type@example.com">
+                                </div>
+                            </div>
+                            <div class="row mt-3 mb-3">
+                                <div class="col-12">
+                                    <label for="address">Address</label>
+                                </div>
+                                <div class="col-12">
+                                    <input id="address" type="text" placeholder="1234 Main St">
+                                </div>
+                            </div>
+                            <div class="row mt-3 mb-3 g-0">
+                                <div class="col-2">
+                                    <label for="address 2">Address 2</label>
+                                </div>
+                                <div class="col-2 color-g">(Optional)</div>
+                                <div class="col-12">
+                                    <input id="address 2" type="text" placeholder="House No.">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label>Country</label>
+                                        </div>
+                                        <div class="col-12">
+                                            <select>
+                                                <option>Choose...</option>
+                                                <option>India</option>
+                                                <option>Aurtralia</option>
+                                                <option>England</option>
+                                                <option>South Africa</option>
+                                                <option>America</option>
+                                                <option>China</option>
+                                                <option>Japan</option>
+                                                <option>Canada</option>
+                                                <option>New-Zealand</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label>State</label>
+                                        </div>
+                                        <div class="col-12">
+                                            <select>
+                                                <option>Choose...</option>
+                                                <option>Uttarakhand</option>
+                                                <option>Delhi</option>
+                                                <option>Punjab</option>
+                                                <option>Chennai</option>
+                                                <option>Gujrat</option>
+                                                <option>Mumbai</option>
+                                                <option>Jammu & Kashmir</option>
+                                                <option>Uttar Pradesh</option>
+                                                <option>Chandigarh</option>
+                                                <option>Perth</option>
+                                                <option>Sydney</option>
+                                                <option>New South Wales</option>
+                                                <option>London</option>
+                                                <option>California</option>
+                                                <option>Washington DC</option>
+                                                <option>Fort Lauderdale</option>
+                                                <option>Baltimore</option>
+                                                <option>Wolverhempton</option>
+                                                <option>Los-Angeles</option>
+                                                <option>Las Vegas</option>
+                                                <option>Greenwich</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="zip">Zip</label>
+                                        </div>
+                                        <div class="col">
+                                            <input id="zip" type="number">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="button mt-4" style="width: 100px;">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="bg-light p-2" style="min-height: 400px;">
+                        <div class="row">
+                            <div class="col-5">
+                                <h4 class="color-g ps-3">Your cart</h4>
+                            </div>
+                            <div class="col-2 ms-auto">
+                                <div class="bg-secondary text-white ps-3 p-1 rounded-4"
+                                    style="height: 30px; font-size: 18px;">
+                                    3
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-1">
+                            <div class="row p-2 border-bottom g-0">
+                                <div class="col-7">
+                                    Product Name<br>
+                                    <small class="color-g">Brief Description</small>
+                                </div>
+                                <div class="col-2 offset-3 ps-2">
+                                    $12
+                                </div>
+                            </div>
+                            <div class="row p-2 border-bottom g-0">
+                                <div class="col-7">
+                                    Second Product<br>
+                                    <small class="color-g">Brief Description</small>
+                                </div>
+                                <div class="col-2 offset-3 ps-3">
+                                    $8
+                                </div>
+                            </div>
+                            <div class="row p-2 border-bottom g-0">
+                                <div class="col-7">
+                                    Third Item<br>
+                                   <small class="color-g"> Brief Description</small>
+                                </div>
+                                <div class="col-2 offset-3 ps-3 ">
+                                    $5
+                                </div>
+                            </div>
+                            <div class="bg-secondary">
+                                <div class="row mb-2 g-0 p-2">
+                                    <div class="col-7 green bg-secondary">
+                                        Promo Code<br>
+                                        EXAMPLECODE
+                                    </div>
+                                    <div class="col-2 green offset-3 bg-secondary">
+                                        -$5
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row p-2 border-bottom g-0">
+                                <div class="col-7 font-w">Total (USD)</div>
+                                <div class="col-2 font-w offset-3 ps-2">
+                                    $20
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-o rounded-3 mt-3 p-1" style="height: 36px;">
+                            <input type="text" placeholder="Promo Code">
+                            <button class="button">Redeem</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
